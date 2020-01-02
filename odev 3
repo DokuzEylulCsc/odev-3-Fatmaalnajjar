@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+ main(int argc, char** argv) {
+char trou_array [] = {'B','A','D','D','C','B','D','A','C','C'};	
+char user_answer[10];
+int mark=0;
+int count =1,user_count=1,name_user=202011;
+ int a, b ,c,d,e,f,g,h,i,j;
+do {cout<<"Hallow User number : "<<user_count<<" \b your nic name is :Student"<<name_user<<endl;
+	for (int i=0; i<10; i++)
+{
+cout<<"Enter ansewer "<<count<<" Here:"<<endl;
+cin>>user_answer[i];
+count++;
+}
+if (trou_array[1] == user_answer[1]){a= true;  cout<<"Answer 1 is truo"<<endl; } else if (user_answer[1] = 0){cout<<"Answer 1 is false"<<endl; }  else a=a-1;cout<<"Answer 1 is false"<<endl; 
+if (trou_array[2] == user_answer[2]){b= true;   cout<<"Answer 2 is truo"<<endl;} else if (user_answer[2] = 0){cout<<"Answer 2 is false"<<endl;} else b=b-1;cout<<"Answer 2 is false"<<endl;  
+if (trou_array[3] == user_answer[3]){c= true;  cout<<"Answer 3 is truo"<<endl;}  else if (user_answer[3] = 0){cout<<"Answer 3 is false"<<endl;} else c=c-1;cout<<"Answer 3 is false"<<endl;  
+if (trou_array[4] == user_answer[4]){d= true;  cout<<"Answer 4 is truo"<<endl;}  else if (user_answer[4] = 0){cout<<"Answer 4 is false"<<endl;} else d=d-1;cout<<"Answer 4 is false"<<endl;  
+if (trou_array[5] == user_answer[5]){e= true;  cout<<"Answer 5 is truo"<<endl;}  else if (user_answer[5] = 0){cout<<"Answer 5 is false"<<endl;} else e=e-1;cout<<"Answer 5 is false"<<endl;  
+if (trou_array[6] == user_answer[6]){f= true;  cout<<"Answer 6 is truo"<<endl;}  else if (user_answer[6] = 0){cout<<"Answer 6 is false"<<endl;} else f=f-1;cout<<"Answer 6 is false"<<endl;  
+if (trou_array[7] == user_answer[7]){g= true;  cout<<"Answer 7 is truo"<<endl;}  else if (user_answer[7] = 0){cout<<"Answer 7 is false"<<endl;} else g=g-1;cout<<"Answer 7 is false"<<endl;  
+if (trou_array[8] == user_answer[8]){h= true;  cout<<"Answer 8 is truo"<<endl;}  else if (user_answer[8] = 0){cout<<"Answer 8 is false"<<endl;} else h=h-1;cout<<"Answer 8 is false"<<endl;  
+if (trou_array[9] == user_answer[9]){i= true;  cout<<"Answer 9 is truo"<<endl;}  else if (user_answer[9] = 0){cout<<"Answer 9 is false"<<endl;} else i=i-1;cout<<"Answer 9 is false"<<endl;  
+if (trou_array[10] == user_answer[10]){j= true;  cout<<"Answer 10 is truo"<<endl;}  else if (user_answer[10] = 0){cout<<"Answer 10 is false"<<endl;} else j=j-1;cout<<"Answer 10 is false"<<endl;  
+
+if (a = true ) mark=a+4;
+if (b = true ) mark=b+4;
+if (c = true ) mark=c+4;
+if (d = true ) mark=d+4;
+if (e = true ) mark=e+4;
+if (f = true ) mark=f+4;
+if (g = true ) mark=g+4;
+if (h = true ) mark=h+4;
+if (i = true ) mark=i+4;
+if (j = true ) mark=j+4;
+	cout<<"YOR MARK IS :"<<mark<<endl<<endl;
+	user_count++;
+	name_user=30+name_user;
+}while( user_count <11 );
+}
+// Fatma Alnajjar 
+//www.w3schools.com/cpp/
